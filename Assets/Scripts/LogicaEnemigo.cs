@@ -23,4 +23,14 @@ public class LogicaEnemigo : MonoBehaviour
         logicaControlador.RestarEnemigos();
         Destroy(gameObject);
     }
+    public ContadorEnemigos contadorEnemigos;
+
+    void OnDestroy()
+    {
+        if (contadorEnemigos != null)
+        {
+            contadorEnemigos.IncrementarContador();
+        }
+    }
+
 }
