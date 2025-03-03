@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 
-public class Enemigo : MonoBehaviour
+public class EnemigoPersigue : MonoBehaviour
 
 {
     private (float, float) posicion;
     private (float, float) objetivo;
 
-    public Enemigo(float x, float y)
+    public EnemigoPersigue(float x, float y)
     {
         this.posicion = (x, y);
     }
@@ -46,7 +46,7 @@ public class Program
 {
     public static void Main()
     {
-        Enemigo enemigo1 = new Enemigo(0, 0);
+        EnemigoPersigue enemigo1 = new EnemigoPersigue(1, 2);
         (float, float) posicionObjetivo = (3, 4);
 
         while (true)

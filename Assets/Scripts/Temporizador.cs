@@ -7,9 +7,9 @@ using TMPro;
 public class Temporizador : MonoBehaviour
 {
     public TextMeshProUGUI textoTemporizador;
-    public float tiempoRestante = 30f;
+    public float tiempoRestante = 35f;
     public ContadorEnemigos contadorEnemigos;
-    public int enemigosNecesarios = 6;
+    public int enemigosNecesarios = 8;
     private bool juegoTerminado = false;
 
     void Update()
