@@ -6,6 +6,7 @@ public class LogicaEnemigo : MonoBehaviour
 {
     public GameObject efecto;
     public LogicaControlador logicaControlador;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class LogicaEnemigo : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        
         Instantiate(efecto,transform.position, Quaternion.identity);
         logicaControlador.RestarEnemigos();
         Destroy(gameObject);

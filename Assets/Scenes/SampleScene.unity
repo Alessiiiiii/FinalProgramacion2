@@ -959,6 +959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377461260}
   - component: {fileID: 377461259}
+  - component: {fileID: 377461261}
   m_Layer: 0
   m_Name: Mira-Sheet 50x50_0
   m_TagString: Untagged
@@ -1033,6 +1034,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &377461261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377461258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08a1d3eab1c4bd34ca1e108f547821b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSound: {fileID: 8300000, guid: 7dcbb0da439ff674ab57bb2df31fd196, type: 3}
 --- !u!1 &462143660
 GameObject:
   m_ObjectHideFlags: 0
